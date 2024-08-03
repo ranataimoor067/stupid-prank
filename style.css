@@ -1,0 +1,79 @@
+# Code for the styling of the website
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin: 5%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#error img{
+    height: 35vh;
+    width: 40%;
+}
+
+#goodbye{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+b{
+    color:blue;
+}
+
+#cheems{
+    height:25vh;
+    width:20%;
+    border-radius: 50%;
+    transform:scale3d(0.9, 0.9, 0.9);
+    transform: rotateY(45deg);
+}
+
+button{
+    background-color: blue;
+    color:white;
+    width:100px;
+    height:50px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px 1px teal;
+}
+
+button:active{
+    background-color: yellow;
+    color:black;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+input{
+    height:50px;
+    border-radius: 20px;
+}
+
+@media(max-width: 700px){
+    #cheems{
+        height:20vh;
+        width:150px;
+        border-radius: 50%;
+        transform:scale3d(0.9, 0.9, 0.9);
+        transform: rotateY(45deg);
+    }
+}
