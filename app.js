@@ -1,4 +1,4 @@
-# JavaScript code for adding logic
+
 
 document.querySelector("#prank").addEventListener("click", () => {
     removeButton();
@@ -60,7 +60,7 @@ function addQuestions(){
     });
 
     but1.addEventListener("click", ()=>{
-        window.location.href = '/goodbye.html';
+        window.location.href = 'goodbye.html';
     })
     
 }
