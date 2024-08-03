@@ -54,7 +54,7 @@ function addQuestions(){
             document.querySelector("#rem4").remove();
             document.querySelector(".rem5").remove();
             question.innerHTML="<p>Nah! You better admit that you are stupid&#129322;</p>"
-            document.querySelector("#mike").src="/cheems.jpg"
+            document.querySelector("#mike").src="cheems.jpg"
             document.querySelector("#mike").style.width="80%";
         }, 2500)
     });
