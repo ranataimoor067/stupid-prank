@@ -1,10 +1,10 @@
-# Code for the styling of the website
+
 
 body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: azure;
+    background-color: #758694;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     margin: 5%;
