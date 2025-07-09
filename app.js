@@ -27,7 +27,7 @@ function addQuestions(){
     const question=document.createElement("p");
     const but1=document.createElement("button");
     const but2=document.createElement("button");
-    question.innerText="Are you stupid?";
+    question.innerText="Are you madarchood?";
     but1.innerText="Yes";
     but2.innerText="No";
     document.querySelector("body").appendChild(question);
